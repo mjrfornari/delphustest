@@ -12,10 +12,10 @@
     $config['dbpass'] = 'eloperdido';
   } else {
     ini_set("display_errors", "Off");
-    define("BASEURL", "https://danerscode.com/");
-    $config['dbname'] = 'u132842290_aperg';
+    define("BASEURL", "https://delphustest.azurewebsites.net/");
+    $config['dbname'] = 'apergsdb';
     $config['host']   = 'localhost';
-    $config['dbuser'] = 'u132842290_apeu';
+    $config['dbuser'] = 'root';
     $config['dbpass'] = '1El0perdid0!';
   }
 
