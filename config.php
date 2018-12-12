@@ -15,8 +15,8 @@
     define("BASEURL", "https://delphustest.azurewebsites.net/");
     $config['dbname'] = 'apergsdb';
     $config['host']   = 'localhost';
-    $config['dbuser'] = 'root';
-    $config['dbpass'] = '1El0perdid0!';
+    $config['dbuser'] = 'azure';
+    $config['dbpass'] = 'password!';
   }
 
  ?>
