@@ -1,0 +1,312 @@
+@font-face {
+  font-family: "Ubuntu";
+  src:url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+/*TEMPLATE GENERAL*/
+
+body {
+    font-family: "Ubuntu";
+    margin: 0;
+    background: #EEE;
+    height: auto;
+}
+img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  flex: 0 1 60vw;
+  align-items: center;
+}
+
+.form_design_one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.form_design_one p {
+    color: #03EBA6;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+}
+
+/* TEMPLATE PAGE */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.tweak1 {
+    margin-top: 25px !important;
+}
+
+.tweak2 {
+    margin-top: 55px !important;
+}
+
+.dropdown-submenu .dropdown-menu3 {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+/* .dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000;
+} */
+
+/* WELCOME PAGE */
+.logo_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.logo_text p {
+    color: #03EBA6;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+    font-size: 3.2rem;
+}
+
+.logo_text h1 {
+    color: #03EBA6;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+    font-size: 9.2rem;
+}
+
+.logo_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo_links a {
+    color: #03EBA6;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+/* LOGIN PAGE */
+
+.login_design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.login_design p {
+    color: #03EBA6;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+}
+
+.login_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.login_links a {
+    color: #03EBA6;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.return_message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+/* MODAL PAGE */
+
+.header_treat {
+    font-weight: bold;
+    background-color: #286090;
+    color: #FFFFFF;
+    height: 1px;
+}
+
+/* IMAGES PAGE */
+.img_tweaks{
+  width: 100%;
+}
+
+/*TELA DE ASSOCIADOS*/
+.displayMe{
+  display: none;
+}
+
+/*HOME*/
+.buttons_set{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #004137;
+    border-radius: 25px;
+    padding:5px;
+    text-align:center;
+    width: 8%;
+    box-shadow: 2px 2px 5px #000000;
+}
+.buttons_set img{
+    width: 6rem;
+}
+/*CSS para AUTOCOMPLETE INICIO*/
+.ui-autocomplete-input {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-top: 0px !important;
+  z-index: 1511;
+  position: relative;
+}
+.ui-menu .ui-menu-item a {
+  font-size: 12px;
+}
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1510 !important;
+  float: left;
+  display: none;
+  min-width: 160px;
+  width: 160px;
+  padding: 4px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+}
+.ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.ui-state-hover, .ui-state-active {
+      color: #ffffff;
+      text-decoration: none;
+      background-color: #0088cc;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      background-image: none;
+}
+/*CSS para AUTOCOMPLETE FIM*/
+
+/* QUERIES FOR BIG SCREENS */
+@media(min-width: 500px) {
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        flex: 0 1 60vw;
+        align-items: center;
+    }
+    .login_design p {
+        color: #03EBA6;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.1), -2px 2px rgba(0, 0, 0, 0.1);
+        font-size: 4rem;
+    }
+
+    /* IMAGES PAGE */
+    .img_tweaks{
+      width: 200px;
+      height: 130px;
+      min-height: 130px;
+      float: left;
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
+      margin-bottom: 100px;
+    }
+    .img_tweaks img{
+      width: 200px;
+    }
+    .img_edit {
+      display: flex;
+      text-align: center;
+      padding: 10px;
+    }
+}
